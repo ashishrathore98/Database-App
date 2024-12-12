@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main_design"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:textColor="#051A92"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Welcome" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#C5BB61"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="These are your details from our Database" />
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textSize="40dp"
+        android:text="Mail" />
+
+    <TextView
+        android:id="@+id/tvUnique"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:foregroundGravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_margin="20dp"
+        android:text="UNIQUE ID" />
+</LinearLayout>
